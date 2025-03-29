@@ -1,12 +1,12 @@
 services:
   frontend:
-    image: ghcr.io/nookpost/nookpost-frontend:v0.25.0
+    image: ghcr.io/nookpost/nookpost-frontend:v0.27.0
     environment:
       - BACKEND_URL=http://localhost:8080
     networks:
       - nookpost
   backend:
-    image: ghcr.io/nookpost/nookpost-backend:v0.13.4
+    image: ghcr.io/nookpost/nookpost-backend:v0.13.6
     networks:
       - nookpost
   proxy:
