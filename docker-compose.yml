@@ -1,6 +1,6 @@
 services:
   frontend:
-    image: ghcr.io/nookpost/nookpost-frontend:v0.27.0
+    image: ghcr.io/nookpost/nookpost-frontend:v0.27.1
     environment:
       - BACKEND_URL=http://localhost:8080
     networks:
